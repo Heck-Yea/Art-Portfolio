@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Art Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header>
     <h1>My Art Portfolio</h1>
@@ -18,36 +20,23 @@
 
   <section id="gallery">
     <nav class="tab-nav">
-      <button onclick="showTab('Gallery')">Gallery</button>
-      <button onclick="showTab('sketches')">Sketches and Uncompleted</button>
+      <button onclick="showTab('completed-gallery')">Gallery</button>
+      <button onclick="showTab('sketches-gallery')">Sketches and Uncompleted</button>
     </nav>
-  
-    <div id="Gallery" class="tab-content">
-        <h2>Gallery</h2>
-        <div class="grid">
-            <div class="Cliff Over the Sea">
-                <img src="images/Cliff_Over_The_Sea.png" alt="Cliff Over the Sea" />
-                <h3 class="caption">Cliff Over the Sea</h3>
-              </div>
-        </div>
+
+    <div id="completed-gallery" class="tab-content">
+      <h2>Gallery</h2>
+      <div class="grid" id="completed-grid"></div>
     </div>
-  
-    <div id="sketches" class="tab-content" style="display: none;">
-      <div id="sketches-gallery" class="grid"></div>
+
+    <div id="sketches-gallery" class="tab-content" style="display: none;">
       <h2>Sketches and Uncompleted</h2>
-        <div class="grid">
-            <div class="Girl_In_Front_Of_House">
-                <img src="images/Girl_In_Front_Of_House.png" alt="Girl_In_Front_Of_House" />
-                <h3 class="caption">Girl In Front of House</h3>
-              </div>
-        </div>
+      <div class="grid" id="sketches-grid"></div>
     </div>
   </section>
-  
 
 
 
-  
   <section id="about">
     <h2>About Me</h2>
     <p>heck yea art yeah</p>
@@ -65,4 +54,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>

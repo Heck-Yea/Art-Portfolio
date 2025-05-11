@@ -6,13 +6,11 @@ function showTab(tabName) {
   
   // Sample data for each category
   const completedImages = [
-    { file: "art1.jpg", title: "Finished Painting 1" },
-    { file: "art2.jpg", title: "Finished Painting 2" }
+    { file: "Cliff_Over_The_Sea.png", title: "Cliff Over the Sea" },
   ];
   
   const sketchesImages = [
-    { file: "sketch1.jpg", title: "Character Sketch" },
-    { file: "sketch2.jpg", title: "Background Draft" }
+    { file: "Girl_In_Front_Of_House.png", title: "Girl In Front Of House" },
   ];
   
   // Reusable function to populate a gallery
